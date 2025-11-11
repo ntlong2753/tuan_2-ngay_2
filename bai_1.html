@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let ly;
+        let hoa;
+        let sinh;
+        ly = prompt('Nhập điểm Vật lý');
+        hoa = prompt('Nhập điểm Hóa học');
+        sinh = prompt('Nhập điểm Sinh học');
+        let diem_ly = parseInt(ly);
+        let diem_hoa = parseInt(hoa);
+        let diem_sinh = parseInt(sinh);
+        let diem_trung_binh = (diem_ly + diem_hoa + diem_sinh) / 3;
+        document.write('Điểm trung bình: ' + diem_trung_binh);
+        document.write('<br>')
+    </script>
+</body>
+</html>
