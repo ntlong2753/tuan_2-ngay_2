@@ -1,7 +1,7 @@
-function ChangeMoney(){
-    let Amount = document.getElementById("amount").value;
-    let From = document.getElementById("from").value;
-    let To = document.getElementById("to").value;
+function doitien(){
+    let Amount = document.getElementById("x").value;
+    let From = document.getElementById("a").value;
+    let To = document.getElementById("b").value;
     let Result
     if (From === "USD" && To === "VND"){
         Result = 'Result: ' + (Amount * 27000) + 'VNĐ';

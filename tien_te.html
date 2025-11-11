@@ -10,7 +10,7 @@
             <!-- Hàng 1 -->
             <tr>
                 <th>
-                    <label for = "amount">Amount</label>
+                    <label for = "x">Amount</label>
                 </th> <!-- Cột 1 -->
                 <th>From Currency</th> <!-- Cột 2 -->
                 <th>To Currency</th> <!-- Cột 3 -->
@@ -19,12 +19,12 @@
             <tr>
                 <td> <!-- Cột 1 -->
                     <label>
-                        <input type="number" name="amount" id = "amount">
+                        <input type="number" name="amount" id = "x">
                     </label>
                 </td>
                 <td> <!-- Cột 2 -->
                     <label>
-                        <select name="formC" id = "from">
+                        <select name="formC" id = "a">
                             <option value="VND">VN</option>
                             <option value="USD">USD</option>
                         </select>
@@ -32,14 +32,14 @@
                 </td>
                 <td> <!-- Cột 3 -->
                     <label>
-                        <select name="toC" id = "to">
+                        <select name="toC" id = "b">
                             <option value="VND">VN</option>
                             <option value="USD">USD</option>
                         </select>
                     </label>
                 </td>
                 <td> <!-- Cột 4 -->
-                    <button type="button" onclick="ChangeMoney()">Convert</button>
+                    <button type="button" onclick="doitien()">Convert</button>
                 </td>
             </tr>
         </table>
