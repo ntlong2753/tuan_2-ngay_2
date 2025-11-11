@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tiền tệ</title>
+</head>
+<body>
+    <form>
+        <table>
+            <!-- Hàng 1 -->
+            <tr>
+                <th>
+                    <label for = "amount">Amount</label>
+                </th> <!-- Cột 1 -->
+                <th>From Currency</th> <!-- Cột 2 -->
+                <th>To Currency</th> <!-- Cột 3 -->
+            </tr>
+            <!-- Hàng 2 -->
+            <tr>
+                <td> <!-- Cột 1 -->
+                    <label>
+                        <input type="number" name="amount" id = "amount">
+                    </label>
+                </td>
+                <td> <!-- Cột 2 -->
+                    <label>
+                        <select name="formC" id = "from">
+                            <option value="VND">VN</option>
+                            <option value="USD">USD</option>
+                        </select>
+                    </label>
+                </td>
+                <td> <!-- Cột 3 -->
+                    <label>
+                        <select name="toC" id = "to">
+                            <option value="VND">VN</option>
+                            <option value="USD">USD</option>
+                        </select>
+                    </label>
+                </td>
+                <td> <!-- Cột 4 -->
+                    <button type="button" onclick="ChangeMoney()">Convert</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <p id = "result">Result</p>
+    <script type="text/javascript" src="tien_te.js"></script>
+</body>
+</html>
